@@ -9,7 +9,7 @@ INSERT INTO movies VALUES (6, "Disney's Up", 2009);
  /* SELECT ALL ROWS AND COLUMNS in Movies */
 SELECT * FROM movies;
 
- /* SELECTING ALL MOVIES THAT HAS Release date after 2000*/
+ /* display all list of movies that has Release date after 2000*/
 SELECT * 
 FROM movies
 WHERE release_year > 2000
